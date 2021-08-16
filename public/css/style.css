@@ -43,6 +43,8 @@ h2 {
 
 .weatherLocation{
   display: flex;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   align-items: center;
   width: 100%;
   justify-content: center;
