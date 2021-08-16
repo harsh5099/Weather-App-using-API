@@ -17,7 +17,7 @@ const dateElement = document.querySelector('.date');
 const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
 dateElement.textContent = new Date().getDate() + " " + monthNames[new Date().getMonth()];
-locationElement.textContent = "Made by Harsh with '♥'"
+locationElement.textContent = "Made by Harsh with ❤️"
 search.addEventListener('onClick', (event) => {
     inp.textContent = "";
 });
