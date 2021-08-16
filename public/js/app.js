@@ -35,7 +35,7 @@ weatherForm.addEventListener('submit', (event) => {
                 tempElement.textContent = "";
                 weatherCondition.textContent = "";
             } else {
-                 
+                 search.value="";
                 locationElement.textContent = data.cityName +' '+ data.country;
                 tempElement.textContent = (data.temperature - 273.15).toFixed(1) + String.fromCharCode(176) + "C";
                 weatherCondition.textContent = data.description.toUpperCase();
